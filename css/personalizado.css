@@ -28,10 +28,10 @@ h1{
     background-color: rgba(112, 32, 32, 0.337);
   }
 
-  .habilidades{
-    background-color: transparent;
-    border: 1px solid transparent;
-  }
+.habilidades{
+background-color: transparent;
+border: 1px solid transparent;
+}
 
   @-webkit-keyframes fadeIn {
     0% { opacity: 0; }
@@ -63,4 +63,11 @@ h1{
 
 .borda-projetos{
     padding-top: 8%;
+}
+
+@media (max-width: 768px){
+    .tamanho-img {
+        width: 80%;
+        margin-left: 9%;
+    }
 }
