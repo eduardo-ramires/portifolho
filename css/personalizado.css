@@ -1,0 +1,66 @@
+p{
+    font-family: 'Quando', serif;
+}
+
+h1{
+    font-family: Aboreto;
+}
+.cor-header{
+    background-color: rgba(97, 64, 59, 0.392);
+    border-bottom: 3px solid rgb(97, 64, 59);
+}
+
+.cor-corpo{
+    background-color: rgba(97, 64, 59, 0.953);
+}
+
+.margem-top{
+    margin-top: 10%;
+}
+
+.border-radius{
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+
+.header_transparente{
+    background-color: rgba(112, 32, 32, 0.337);
+  }
+
+  .habilidades{
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+    }
+
+.bordas-sobre-mim{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+.borda-projetos{
+    padding-top: 8%;
+}
