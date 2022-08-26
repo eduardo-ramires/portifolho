@@ -21,3 +21,18 @@ function verMenos(){
     $('#ver-mais').fadeOut();
     $('#button-ver-mais').fadeIn();
 }
+
+window.sr = ScrollReveal({ reset: true});
+
+ScrollReveal().reveal('.area-2', {
+    delay: 700,
+    interval:900
+});
+ScrollReveal().reveal('.area-3', {
+    delay: 500,
+     scale: 0.85
+});
+ScrollReveal().reveal('.area-4', {
+    delay: 500,
+     scale: 0.85
+});
