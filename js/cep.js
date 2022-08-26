@@ -4,7 +4,7 @@ function buscarEndereco(){
     $.ajax({
         type: 'GET',
         url:`http://viacep.com.br/ws/${cep}/json/`,
-        timeout: 2000,
+        timeout: 5000,
         success: function(data){
             $('#cidade').val(data.localidade);
             $('#uf').val(data.uf);
